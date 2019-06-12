@@ -28,7 +28,7 @@ featured_image: /images/social.jpg
 
 		{% for project in site.projects reversed %}
 
-		<div class="portfolio-item {{project.category}}" data-tilt data-tilt-glare="true" data-tilt-max="4"  data-tilt-scale="1.02">
+		<div class="portfolio-item {{project.category}}" data-tilt data-tilt-glare="true" data-tilt-max="2">
 
 			<a class="portfolio-item__link" href="{{ project.url }}">
 
@@ -54,18 +54,6 @@ featured_image: /images/social.jpg
 
 </section>
 
-<script>
-	// init Isotope
-	var $grid = $('.grid').isotope({
-		// options
-	});
-	// filter items on button click
-	$('.filter-button-group').on( 'click', 'button', function() {
-		var filterValue = $(this).attr('data-filter');
-		$grid.isotope({ filter: filterValue });
-	});
-	$('.button-group button').on('click', function(){
-		$('.button-group button').removeClass('active');
-		$(this).addClass('active');
-	});
-</script>
+<script type="text/javascript" src="{{ site.url }}/js/plugins/isotope.pkgd.min.js"></script>
+<script type="text/javascript" src="{{ site.url }}/js/projects.js"></script>
+<script type="text/javascript" src="{{ site.url }}/js/plugins/tilt.jquery.min.js"></script>
