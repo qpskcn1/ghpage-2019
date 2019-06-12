@@ -8,10 +8,8 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Welcome'
-      url: '/'
     - title: 'Projects'
-      url: '/projects'
+      url: '/'
     # - title: 'Blog'
     #   url: '/blog/'
     - title: 'About'
@@ -169,5 +167,6 @@ advanced_settings:
   ajax_loading: true
   analytics_code: ""
   custom_styles: ""
-  header_js: ""
-  footer_js: ""
+  header_js: '<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="/js/plugins/isotope.pkgd.min.js"></script>'
+  footer_js: ''

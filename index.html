@@ -1,29 +1,34 @@
 ---
 layout: default
-title: A beautiful two-column Jekyll theme
-description: A beautiful, minimal two-column portfolio theme built for Jekyll. Duet makes your work look simply awesome.
+title: Projects
+description: Projects Page
 featured_image: /images/social.jpg
 ---
-
 <section class="intro">
 
 	<div class="wrap">
 
-		<h1>A beautiful, minimal two-column
-		portfolio theme built for Jekyll.</h1>
-		<p>Duet makes your work look simply awesome.</p>
+		<h1>Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program</h1>
+		<p>Linus Torvalds</p>
 
 	</div>
 
 </section>
 
 <section class="portfolio">
+	<div class="portfolio-categories button-group filter-button-group">
+		<button class="button active" data-filter="*">All</button>
+		{% assign categories = "Coding,Video,Photography,Film" | split: ',' %}
+		{% for category in categories %}
+			<button class="button" data-filter=".{{ category }}">{{ category }}</button>
+		{% endfor %}
+	</div>
 
-	<div class="content-wrap portfolio-wrap">
+	<div class="content-wrap portfolio-wrap grid">
 
 		{% for project in site.projects reversed %}
 
-		<div class="portfolio-item">
+		<div class="portfolio-item {{project.category}}" data-tilt data-tilt-glare="true" data-tilt-max="4"  data-tilt-scale="1.02">
 
 			<a class="portfolio-item__link" href="{{ project.url }}">
 
@@ -33,6 +38,7 @@ featured_image: /images/social.jpg
 
 				<div class="portfolio-item__content">
 					<div class="portfolio-item__info">
+						<p class="portfolio-item__categories">{{ project.categories }}</p>
 						<h2 class="portfolio-item__title">{{ project.title }}</h2>
 						<p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
 					</div>
@@ -47,3 +53,19 @@ featured_image: /images/social.jpg
 	</div>
 
 </section>
+
+<script>
+	// init Isotope
+	var $grid = $('.grid').isotope({
+		// options
+	});
+	// filter items on button click
+	$('.filter-button-group').on( 'click', 'button', function() {
+		var filterValue = $(this).attr('data-filter');
+		$grid.isotope({ filter: filterValue });
+	});
+	$('.button-group button').on('click', function(){
+		$('.button-group button').removeClass('active');
+		$(this).addClass('active');
+	});
+</script>

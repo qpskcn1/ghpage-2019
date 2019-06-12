@@ -4,7 +4,7 @@ subtitle: Yi graduated from the University of Washington, Seattle in 2016 with a
         He was Vice President of Chinese Student & Scholar Association(CSSA) at University of Washington and in charge of software, website development and video production.
         Passionate about coding and its possibilities, Yi is currently employed by the Ohio Film Group where he provides his knowledge to help streamline work processes
         and improve workflows at OFG.
-description: Duet is a beautiful Jekyll portfolio theme.
+description: Yi Zheng, Software Engineer
 featured_image: /images/demo/demo-landscape.jpg
 ---
 

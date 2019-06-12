@@ -8,8 +8,13 @@
 	padding: 0 $grid-spacing/2;
 }
 
+.portfolio-categories {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
 .portfolio-wrap {
-	
+
 }
 
 .portfolio-item {
@@ -17,6 +22,8 @@
 	padding: $grid-spacing/2;
 	float: left;
 	width: 50%;
+	transform-style: preserve-3d;
+	box-shadow: 0 20px 27px rgba(0, 0, 0, 0.05);
 }
 
 .portfolio-item__link {
@@ -60,6 +67,7 @@
 }
 
 .portfolio-item__title {
+	margin-top: 5px;
 	color: $overlay-text-color;
 	font-size: $grid-item-title-small;
 	font-weight: $grid-item-title-weight;
@@ -88,4 +96,17 @@
 	@include mq(laptop) {
 		font-size: $grid-item-subtitle-large;
 	}
+}
+
+.portfolio-item__categories {
+	display:inline;
+	padding: 3px 12px 3px 12px;
+	color: $overlay-text-color;
+	background: $accent_color;
+}
+
+button.active {
+	background: adjust-hue($accent-color,-15%);
+	border-color: adjust-hue($accent-color,-15%);
+	color: $background-color;
 }
