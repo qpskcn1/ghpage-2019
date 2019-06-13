@@ -8,11 +8,8 @@ description: Yi Zheng, Software Engineer
 featured_image: /images/demo/demo-landscape.jpg
 ---
 
-
-
- <div class="user-details">
-  <p> {{site.user_description}} </p>
-</div>
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+<div class="wrap">
   <div class="user">
     <div class="tech">
       <h2>Systems</h2>
@@ -35,4 +32,5 @@ featured_image: /images/demo/demo-landscape.jpg
       <i class="devicon-vim-plain colored"></i>
       <p>Proficient with Git, Perforce, AWS, Vim, WordPress, Unreal Engine, Autodesk Maya, Adobe Premiere Pro, Adobe After Effects, Adobe Photoshop etc.</p>
     </div>
+</div>
 </div>

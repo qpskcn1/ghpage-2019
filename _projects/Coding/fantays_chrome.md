@@ -2,12 +2,12 @@
 title: 'Yahoo Basketball Fantasy Helper'
 subtitle: 'Chrome Extension'
 category: Coding
-date: 2019-06-05 00:00:00
+date: 2017-11-07 00:00:00
 description: This page is a demo that shows everything you can do inside portfolio and blog posts.
-featured_image: '/images/projects/fantasy_chrome/fantasy_chrome.png'
+featured_image: '/images/projects/fantasy_chrome/fantasy.jpg'
 ---
 
-![](/images/projects/fantasy_chrome/fantasy_chrome.png)
+![](/images/projects/fantasy_chrome/fantasy.jpg)
 
 ## Demo content
 

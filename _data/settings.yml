@@ -12,6 +12,8 @@ menu_settings:
       url: '/'
     # - title: 'Blog'
     #   url: '/blog/'
+    - title: 'Films'
+      url: 'films'
     - title: 'About'
       url: '/about'
     - title: 'Contact'
@@ -164,7 +166,7 @@ font_settings:
     letter_spacing: 0
 
 advanced_settings:
-  ajax_loading: true
+  ajax_loading: false
   analytics_code: ""
   custom_styles: ""
   header_js: '<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>'

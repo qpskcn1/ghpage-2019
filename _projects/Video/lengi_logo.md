@@ -1,6 +1,6 @@
 ---
 title: 'Lengi Studios Logo Reveal'
-subtitle: 'Render'
+subtitle: 'Rendering'
 category: Video
 date: 2018-05-03 00:00:00
 description: Lengi Studios Logo Reveal Video

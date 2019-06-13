@@ -2,7 +2,7 @@
 title: 'LightREAL Music Festival Promotion'
 subtitle: 'VFX, Editing'
 category: Video
-date: 2018-05-03 00:00:00
+date: 2015-04-20 00:00:00
 description: LightREAL Music Festival Promotion
 featured_image: '/images/projects/lightreal/lightreal.jpeg'
 ---
