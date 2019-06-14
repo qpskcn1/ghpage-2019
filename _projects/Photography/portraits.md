@@ -8,6 +8,9 @@ featured_image: '/images/projects/portraits/DSC_9114.jpg'
 ---
 
 <div class="gallery" data-columns="3">
-	<img src="/images/projects/portraits/DSC_0348.jpg">
-	<img src="/images/projects/portraits/DSC_9114.jpg">
+	{% for image in site.static_files %}
+		{% if image.path contains '/images/projects/portraits/' %}
+			<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+		{% endif %}
+	{% endfor %}
 </div>
