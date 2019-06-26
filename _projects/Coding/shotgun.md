@@ -4,7 +4,7 @@ subtitle: 'Pipeline Tools Development'
 category: Coding
 date: 2019-06-05 00:00:00
 description: Details about my shotgun applications development
-featured_image: '/images/projects/shotgun/shotgun-thumb-1920x1000.webp'
+featured_image: '/images/projects/shotgun/shotgun.jpg'
 ---
 
 {:toc}
