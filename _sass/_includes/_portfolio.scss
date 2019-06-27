@@ -37,6 +37,10 @@
 				opacity: 1;
 				visibility: visible;
 			}
+			.portfolio-item__info {
+				@include transition(all 0.2s ease-in-out);
+				@include transform(scale(0.30) translateZ(200px));
+			}
 		}
 	}
 }
@@ -58,13 +62,10 @@
 
 	opacity: 0;
 	visibility: hidden;
-	@include transition(all 0.2s ease-in-out);
 }
 
 .portfolio-item__info {
 	text-align: center;
-	@include transform(scale(0.30) translateZ(200px));
-	@include transition(all 0.2s ease-in-out);
 }
 
 .portfolio-item__title {

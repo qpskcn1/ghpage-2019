@@ -28,12 +28,12 @@ featured_image: /images/social.jpg
 
 		{% for project in site.projects reversed %}
 
-		<div class="portfolio-item {{project.category}}" data-tilt data-tilt-glare="true" data-tilt-max="1.5">
+		<div class="portfolio-item {{project.category}}" data-tilt data-tilt-glare="true" data-tilt-max="0.5">
 
 			<a class="portfolio-item__link" href="{{ project.url }}">
 
 				<div class="portfolio-item__image">
-					<img src="{{ project.featured_image  }}" alt="{{ project.title }}">
+					<img src="{{ project.featured_image }}" alt="{{ project.title }}">
 				</div>
 
 				<div class="portfolio-item__content">
