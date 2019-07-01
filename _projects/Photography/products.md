@@ -1,6 +1,6 @@
 ---
 title: 'Products'
-subtitle: 'Random Products'
+subtitle: 'Representing products` in advertising'
 category: Photography
 date: 2016-05-03 00:00:00
 description:
