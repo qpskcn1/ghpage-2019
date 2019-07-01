@@ -1,6 +1,6 @@
 ---
 title: 'Portraits'
-subtitle: 'Random Portraits'
+subtitle: 'Lighting, backgrounds and posing'
 category: Photography
 date: 2014-05-03 00:00:00
 description:
