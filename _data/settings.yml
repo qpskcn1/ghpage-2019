@@ -13,7 +13,7 @@ menu_settings:
     # - title: 'Blog'
     #   url: '/blog/'
     - title: 'Films'
-      url: 'films'
+      url: '/films'
     - title: 'About'
       url: '/about'
     - title: 'Contact'
