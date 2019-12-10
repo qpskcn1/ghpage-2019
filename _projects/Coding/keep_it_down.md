@@ -204,9 +204,12 @@ I think the goal of the entire design thinking experience is not about the solut
 
 ![](/images/projects/keep_it_down/framework1.png)
 
+Requirements were more difficult. As we’re all engineers I think it would have been nice to take more of a Continuous Integration approach to our idea. With more time we could iterate on our idea and have multiple evaluations which could feed back into our investigations and requirements. For the time we did have though we’re able to foster great feedback. It teaches us that you can get a lot of value using the design thinking process without requiring tons of resources (our main resource in this case was just time). I would consider this a first iteration; I think having three field observations and three user studies is what gave us the ability to really verify if our idea would work or not. Doing this in a company could be key to understanding if requirements of users are really being met for a given problem.
+
 Also, we found that the most of the valuable information comes from direct interaction with users. Through deep engagement with users, we received many insightful responses that are way beyond expectations.
 
 Evaluation is a key step,  we would revisit time and again / while we’re developing our product / to ensure we are solving the problem and fulfilling the user’s requirements.
+
 
 All in all, we have following key takeaways from the entire design thinking process:
 - Delay coming up with a solution
