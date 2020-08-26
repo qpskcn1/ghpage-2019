@@ -5,7 +5,7 @@ subtitle: Yi graduated from the University of Washington, Seattle in 2016 with a
         Passionate about coding and its possibilities, Yi is currently employed by the Ohio Film Group where he provides his knowledge to help streamline work processes
         and improve workflows at OFG.
 description: Yi Zheng, Software Engineer
-featured_image: /images/demo/demo-landscape.jpg
+featured_image: /images/home.png
 ---
 
 <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
