@@ -1,5 +1,8 @@
 site: Yi Zheng
 
+url: https://yizheng.io
+baseurl:
+
 collections:
   pages:
     output: true
