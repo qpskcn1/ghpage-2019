@@ -1,9 +1,6 @@
 ---
 title: About Me
-subtitle: Yi graduated from the University of Washington, Seattle in 2016 with a B.S. in Computational Mathematics (Algorithms) and a minor in Mathematics.
-        He was Vice President of Chinese Student & Scholar Association(CSSA) at University of Washington and in charge of software, website development and video production.
-        Passionate about coding and its possibilities, Yi is currently employed by the Ohio Film Group where he provides his knowledge to help streamline work processes
-        and improve workflows at OFG.
+subtitle: Yi is a grad student at University of Washington's Global Innovation Exchange(GIX) program and will graduate in December of this year! He currently work as a IT manager at UW's GIX. Before, Yi worked as Software Engineer in Film and Animation industry for three years after graduated from UW.
 description: Yi Zheng, Software Engineer
 featured_image: /images/home.png
 ---
