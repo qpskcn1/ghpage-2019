@@ -176,6 +176,7 @@ advanced_settings:
   gtag("js", new Date());
 
   gtag("config", "UA-61178393-2");
+  gtag('config', 'G-RSFQTTCHT7');
   </script>
   '
   custom_styles: ""
