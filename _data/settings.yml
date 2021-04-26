@@ -177,6 +177,7 @@ advanced_settings:
 
   gtag('config', 'UA-61178393-2');
   gtag('config', 'G-RSFQTTCHT7');
+  gtag('config', 'AW-384025970');
   </script>
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -185,6 +186,10 @@ advanced_settings:
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-5S78CSR');</script>
   <!-- End Google Tag Manager -->
+  <!-- Event snippet for Website traffic conversion page -->
+  <script>
+    gtag('event', 'conversion', {'send_to': 'AW-384025970/fFsnCPDj6IsCEPKKj7cB'});
+  </script>
   "
   custom_styles: ""
   header_js: '<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>'
