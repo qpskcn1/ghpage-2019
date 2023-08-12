@@ -167,17 +167,30 @@ font_settings:
 
 advanced_settings:
   ajax_loading: false
-  analytics_code: '
+  analytics_code: "
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-61178393-2"></script>
+  <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-61178393-2\"></script>
   <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
-  gtag("js", new Date());
+  gtag('js', new Date());
 
-  gtag("config", "UA-61178393-2");
+  gtag('config', 'UA-61178393-2');
+  gtag('config', 'G-RSFQTTCHT7');
+  gtag('config', 'AW-384025970');
   </script>
-  '
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5S78CSR');</script>
+  <!-- End Google Tag Manager -->
+  <!-- Event snippet for Website traffic conversion page -->
+  <script>
+    gtag('event', 'conversion', {'send_to': 'AW-384025970/fFsnCPDj6IsCEPKKj7cB'});
+  </script>
+  "
   custom_styles: ""
   header_js: '<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>'
   footer_js: ''
