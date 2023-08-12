@@ -39,7 +39,7 @@
 			}
 			.portfolio-item__info {
 				@include transition(all 0.2s ease-in-out);
-				@include transform(scale(0.30) translateZ(200px));
+				@include transform(scale(0.60) translateZ(200px));
 			}
 		}
 	}
